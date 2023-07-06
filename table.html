@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/table.css">
+    <script>
+        function add(){
+            var tab = document.getElementById("myTable");
+            var row = tab.insertRow();
+            var cell1 = row.insertCell();
+            var cell2 = row.insertCell();
+            var cell3 = row.insertCell();
+            var cell4 = row.insertCell();
+            var bname = document.getElementById("bname").value;
+            var oname = document.getElementById("oname").value
+            var tin = document.getElementById("tin").value
+            var tout = document.getElementById("tout").value
+            cell1.innerHtml= varma
+            cell2.innerHtml = varma
+            cell3.innerHtml = vadg
+            cell4.innerHtml = fbn
+        }
+    </script>
+</head>
+<body>
+    <table id = "myTable">
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>d</th>
+        </tr>
+    </table>
+    <button onclick="add()">Add it</button>
+</body>
+</html>

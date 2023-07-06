@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/assign1.css">
+</head>
+<body>
+    <div id ="maindiv">
+        Number 1 : <input type="number" id="n1">
+        Number 2 : <input type="number" id= "n2">
+        <button onclick="add()" id = "btn">Add</button>
+        <button onclick="sub()" id = "btn1">sub</button>
+        <button onclick="mul()" id = "btn2">mul</button>
+        <button onclick="div()" id = "btn3">div</button>
+    </div>
+    <div id = "resDiv" style="display:none">
+        <p>Calculation Over...:</p>
+        <p id="res">the operation performed will be displayed here...</p>
+        <button id="back" onclick="location.reload()">Calci</button>
+    </div>
+    <script src="../js/assign1.js" >
+    </script>
+</body>
+</html>

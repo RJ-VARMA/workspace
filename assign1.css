@@ -1,0 +1,29 @@
+div{
+    background-color: antiquewhite;
+    position: relative;
+    top: 200px;
+    height:250px;
+    width :300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+button{
+    position: relative;
+    top: 20px;
+    
+    width: 50px;
+    height:30px;
+}
+p{
+    position:relative;
+    /* top : 0px; */
+    background-color: rgb(240, 168, 61);
+}
+body{
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    top: auto;
+}

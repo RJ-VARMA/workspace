@@ -1,0 +1,10 @@
+document.write("....varma ....")
+var main_tab =document.getElementById("main_tab")
+document.body.append(main_tab)
+var trow = document.createElement(tr)
+var thead = document.createElement(th)
+var tdes = document.createElement(tdes)
+var con = tdes.createElement(p)
+main_tab.append(trow)
+trow.append(thead)
+thead.
